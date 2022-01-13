@@ -1,5 +1,9 @@
 # nvjdc
 
+所有文件和安装说明均来自nolanhzy大佬，安装请自己对照修改命令！
+
+2.3镜像文件  docker pull nihyu/nvjdc:2.3
+
 ## 提示
 
 由于我自己的环境是 Ubuntu 20.04.3 LTS
