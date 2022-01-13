@@ -5,30 +5,33 @@
 由于我自己的环境是 Ubuntu 20.04.3 LTS
 
 
+#一切文件备份大佬仓库，有问题不要问我，什么都不懂！！
 
 
-## Arm安装教程
+
+
+## 安装教程
 
 1拉源码
 国内
 ```
-git clone https://ghproxy.com/https://github.com/NolanHzy/nvjdcdocker.git /root/nolanjdc
+git clone https://ghproxy.com/https://github.com/nihyu/nvjdc.git /root/nolanjdc
 ```
 国外
 ```
-git clone https://github.com/NolanHzy/nvjdcdocker.git /root/nolanjdc
+git clone https://github.com/nihyu/nvjdc.git /root/nolanjdc
 ```
 
 
 2 拉取基础镜像
 ```
-sudo docker pull nolanhzy/nvjdccaptcha:arm   
+sudo docker pull nihyu/nvjdc:2.3   
 ```
 
 3 执行启动基础镜像
 
 ```
-sudo docker run   --name nvjdccaptcha -p 5703:5000  --restart=always  -d   -it --privileged=true  nolanhzy/nvjdccaptcha:arm   
+sudo docker run   --name nvjdccaptcha -p 5703:5000  --restart=always  -d   -it --privileged=true  docker pull nihyu/nvjdc:2.3   
 ```
 
 4 执行命令安装浏览器
